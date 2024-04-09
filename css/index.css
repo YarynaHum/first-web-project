@@ -1,0 +1,17 @@
+@import "global.css";
+@import "header-nav.partial.css";
+@import "index.header-hero.partial.css";
+@import "index.courses.partial.css";
+@import "index.about.partial.css";
+@import "index.video.partial.css";
+@import "index.team.partial.css";
+@import "index.recipes.partial.css";
+@import "index.pricing.partial.css";
+@import "index.features.partial.css";
+@import "index.gallery.partial.css";
+@import "index.testimonials.partial.css";
+@import "index.faq.partial.css";
+@import "index.blog.partial.css";
+@import "index.write-us.partial.css";
+@import "index.navigation.partial.css";
+@import "footer-nav.partial.css";
