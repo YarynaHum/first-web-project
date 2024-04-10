@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  width: 100%;
+}
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Bebas Neue", sans-serif;
+  --accent-font: "Satisfy", cursive;
+  --text-accent-color: #c7a17a;
+  --hero-title-text-color: #fff;
+  --horisontal-line-color: #ae8e6d;
+  --dark-heading-color: #27292b;
+  --dark-epigraph-color: #696871;
+  --carousel-dark-heading-text-color: #858585;
+  --carousel-dark-deskription-text-color: #b1b0af;
+  --carousel-dark-button-bg-color: #454647;
+  --button-light-bg-color: #c7a17a;
+  --button-light-text-color: #f9f4f0;
+  --bg-light-color: #f2f0ec;
+  --bg-white-color: #ffffff;
+  --bg-dark-clolr: #27292b;
+  --light-heading-color: #ffffff;
+  --light-epigraph-color: #dae6c8;
+  --carousel-light-heading-text-color: #f4f4f4;
+  --carousel-light-deskription-text-color: #b8b8b9;
+  --carousel-light-button-bg-color: #dedfdf;
+  --carousel-dark-bg-color: #2f3133;
+  --accordion-heading-text-color: #fffff1;
+  --accordion-sign-color: #cececf;
+  --accordion-deskription-text-color: #d5dace;
+  --button-dark-text-color: #c7a17a;
+  --article-heading-text-color: #27292b;
+  --form-text-color: #a0a1a2;
+
+  font-family: var(--primary-font);
+}

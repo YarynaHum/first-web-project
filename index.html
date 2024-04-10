@@ -13,18 +13,14 @@
     <link rel="stylesheet" href="css/index.css" />
   </head>
   <body>
-    <header>
-      <nav
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="header-nav.partial.html"
-      ></nav>
-      <div
-        data-hx-trigger="load"
-        data-hx-swap="outerHTML"
-        data-hx-get="index.header-hero.partial.html"
-      ></div>
-    </header>
+    <header class="header">
+      <div class="header__background">
+          <div class="header__container container">
+              <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="header-nav.partial.html"></nav>
+              <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
+          </div>
+      </div>
+  </header>
     <main>
       <nav
         data-hx-trigger="load"
