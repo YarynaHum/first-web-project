@@ -1,0 +1,9 @@
+.header-hero__heading {
+    font-family: var(--secondary-font);
+    font-size: 62px;
+    font-weight: 400;
+    letter-spacing: 1.24px;
+    color: var(--hero-title-text-color);
+    text-align: center;
+
+}

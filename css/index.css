@@ -15,3 +15,54 @@
 @import "index.write-us.partial.css";
 @import "index.navigation.partial.css";
 @import "footer-nav.partial.css";
+
+:root {
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Bebas Neue", sans-serif;
+    --accent-font: "Satisfy", cursive;
+    --text-accent-color: #c7a17a;
+    --hero-title-text-color: #fff;
+    --horisontal-line-color: #ae8e6d;
+    --dark-heading-color: #27292b;
+    --dark-epigraph-color: #696871;
+    --carousel-dark-heading-text-color: #858585;
+    --carousel-dark-deskription-text-color: #b1b0af;
+    --carousel-dark-button-bg-color: #454647;
+    --button-light-bg-color: #c7a17a;
+    --button-light-text-color: #f9f4f0;
+    --bg-light-color: #f2f0ec;
+    --bg-white-color: #ffffff;
+    --bg-dark-clolr: #27292b;
+    --light-heading-color: #ffffff;
+    --light-epigraph-color: #dae6c8;
+    --carousel-light-heading-text-color: #f4f4f4;
+    --carousel-light-deskription-text-color: #b8b8b9;
+    --carousel-light-button-bg-color: #dedfdf;
+    --carousel-dark-bg-color: #2f3133;
+    --accordion-heading-text-color: #fffff1;
+    --accordion-sign-color: #cececf;
+    --accordion-deskription-text-color: #d5dace;
+    --button-dark-text-color: #c7a17a;
+    --article-heading-text-color: #27292b;
+    --form-text-color: #a0a1a2;
+  
+    font-family: var(--primary-font);
+  }
+
+.common__heading {
+    font-family: var(--accent-font);
+    color: var(--text-accent-color);
+    font-weight: 400;
+    text-align: center;
+    font-size: 26px;
+}
+.horisontal__heading-line {
+    background-color: var(--horisontal-line-color);
+    border-color: var(--horisontal-line-color);
+    font-size: 17px;
+    font-weight: 400;
+    width: 11px;
+    text-align: center;
+    height: 3px;
+    font-family: var(--primary-font);
+}
