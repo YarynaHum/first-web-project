@@ -53,7 +53,6 @@
     font-family: var(--accent-font);
     color: var(--text-accent-color);
     font-weight: 400;
-    text-align: center;
     font-size: 26px;
 }
 .horisontal__heading-line {
@@ -62,7 +61,29 @@
     font-size: 17px;
     font-weight: 400;
     width: 11px;
-    text-align: center;
     height: 3px;
+}
+.common__light-heading-epigraph {
     font-family: var(--primary-font);
+    color: var(--light-epigraph-color);
+    font-weight: 500;
+    font-size: 19px;
+}
+.common__darc-heading-epigraph {
+    font-family: var(--primary-font);
+    color: var(--dark-epigraph-color);
+    font-weight: 500;
+    font-size: 19px;
+}
+.common__dark-heading {
+    font-family: var(--secondary-font);
+    color: var(--dark-heading-color);
+    font-size: 38px;
+    font-weight: 400;
+}
+.common__light-heading {
+    font-family: var(--secondary-font);
+    color: var(--light-heading-color);
+    font-size: 38px;
+    font-weight: 400;
 }
