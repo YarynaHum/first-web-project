@@ -21,6 +21,7 @@
     color: var(--text-accent-color);
     font-weight: 400;
     font-size: 26px;
+    padding: 0 0 10px 0;
 }
 .horisontal__heading-line {
     background-color: var(--horisontal-line-color);
@@ -41,16 +42,19 @@
     color: var(--dark-epigraph-color);
     font-weight: 500;
     font-size: 19px;
+    padding: 10px 0 10px 0;
 }
 .common__dark-heading {
     font-family: var(--secondary-font);
     color: var(--dark-heading-color);
     font-size: 38px;
     font-weight: 400;
+    padding: 0 0 10px 0;
 }
 .common__light-heading {
     font-family: var(--secondary-font);
     color: var(--light-heading-color);
     font-size: 38px;
     font-weight: 400;
+    padding: 0 0 10px 0;
 }
