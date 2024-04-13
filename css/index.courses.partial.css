@@ -7,7 +7,7 @@
     --horisontal-line-color: #ae8e6d;
     --dark-heading-color: #27292b;
     --dark-epigraph-color: #696871;
-    --carousel-dark-heading-text-color: #858585;
+    --carousel-dark-heading-text-color: rgb(39, 41, 43);
     --carousel-dark-deskription-text-color: #b1b0af;
     --carousel-dark-button-bg-color: #454647;
     --button-light-bg-color: #c7a17a;
@@ -42,4 +42,24 @@
   .courses__carrousel-container {
     display: flex;
     padding: 0 10px 0 10px;
+  }
+  .courses__carrousel-card-heading {
+    font-family: var(--secondary-font);
+    color: var(--carousel-dark-heading-text-color);
+    font-size: 24px;
+    padding: 15px 0 15px 0;
+    text-align: left;
+  }
+  .courses__icon-list-wrapper {
+    
+    display: flex;
+    text-align: left;
+    font-family: var(--primary-font);
+    color: var(--carousel-items-text-color);
+    font-size: 17px;
+  
+
+  }
+  .calendar__countdown-icon .calendar__countdown-icon .courses__icon-list-price-logo {
+    width: 10px;
   }
