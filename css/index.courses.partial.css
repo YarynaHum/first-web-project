@@ -18,7 +18,7 @@
     --light-heading-color: #ffffff;
     --light-epigraph-color: #dae6c8;
     --carousel-light-heading-text-color: #f4f4f4;
-    --carousel-light-deskription-text-color: #b8b8b9;
+    --carousel-light-deskription-text-color: rgb(159, 159, 159);
     --carousel-light-button-bg-color: #dedfdf;
     --carousel-dark-bg-color: #2f3133;
     --accordion-heading-text-color: #fffff1;
@@ -51,15 +51,39 @@
     text-align: left;
   }
   .courses__icon-list-wrapper {
-    
     display: flex;
     text-align: left;
     font-family: var(--primary-font);
     color: var(--carousel-items-text-color);
     font-size: 17px;
-  
-
   }
   .calendar__countdown-icon .calendar__countdown-icon .courses__icon-list-price-logo {
     width: 10px;
+  }
+  .courses__description-text {
+    font-family: var(--primary-font);
+    font-size: 17px;
+    color: var(--carousel-dark-deskription-text-color);
+    text-align: left;
+    font-weight: 400;
+    padding: 10px 0 10px 0;
+  }
+  .courses__button {
+    border: 25px;
+    padding: 18px 30px 18px 30px;
+    background-color: var(--button-light-bg-color);
+    color: var(--button-light-text-color);
+    font-family: var(--primary-font);
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .courses__contact-button {
+    padding: 50px 0 30px 0;
+  }
+  .courses__prev-button-slider {
+    background-color: var(--carousel-dark-bg-color);
+    color: var(--button-light-text-color);
+    border-radius: 50%;
+    width: 24px;
   }
